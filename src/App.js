@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import MapList from './MapList';
+import Jsx from './Jsx';
+import Form from './Form';
+import FavoriteColor from './FavoriteColor';
+import SetTime from './SetTime';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <MapList />
+     <hr/>
+     <Jsx/> 
+     <hr/>
+     <br/>
+     <Form/>
+     <br/>
+     <hr/>
+    <FavoriteColor />
+    <hr/>
+    <SetTime/>
     </div>
   );
 }
